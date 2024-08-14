@@ -30,6 +30,11 @@ First thing is to input the data and name any variables (columns). After which, 
 
 Formatting is necessary as both SAS and Excel use different integers to [represent different dates within their code](https://support.sas.com/resources/papers/proceedings/proceedings/sugi29/068-29.pdf). SAS date formats can only convert values that are integers. Since SAS input the _po_date_ and _po_eta_ as chars by default, we need to create a dummy variable with the format we want the data to take. Then use **_INPUT()_** to convert chars into int as we move them to our new variable. We then drop the old variable to clean up our table.
 
+![New columns](https://github.com/TeaZea/Data-Cleaning-Examples/blob/main/Mock%20SAS%20Data%20Cleaning/SAS%20Data%20Clean%20README%20Pics/NewVariables.jpg)
+
+Dropping unnecessary columns, labeling ones we need, and sorting the data by PO numbers put the finishing touches on the report.
+
+
 
 ---
 
