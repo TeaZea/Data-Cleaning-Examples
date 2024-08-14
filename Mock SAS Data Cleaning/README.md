@@ -5,7 +5,7 @@ This is an example of a script that is used on a regular basis to clean dirty da
 ---
 
 ### Setup
-Simply download both the .sas and the dataset, then upload the file into SAS Studio.
+Simply [download both the .sas](https://github.com/TeaZea/Data-Cleaning-Examples/blob/main/Mock%20SAS%20Data%20Cleaning/mock%20SAS%20data%20clean.sas) and the [dataset](https://github.com/TeaZea/Data-Cleaning-Examples/blob/main/Mock%20SAS%20Data%20Cleaning/MOCK_DATA.csv), then upload the file into SAS Studio.
 
 ---
 
