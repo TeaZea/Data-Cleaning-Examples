@@ -5,12 +5,12 @@ This is an example of a script that is used on a regular basis to clean dirty da
 ---
 
 ### Setup
-Simply [download both the .sas](https://github.com/TeaZea/Data-Cleaning-Examples/blob/main/Mock%20SAS%20Data%20Cleaning/mock%20SAS%20data%20clean.sas) and the [dataset](https://github.com/TeaZea/Data-Cleaning-Examples/blob/main/Mock%20SAS%20Data%20Cleaning/MOCK_DATA.csv), then upload the file into SAS Studio.
+Simply [download both the .sas](https://github.com/TeaZea/Data-Cleaning-Examples/blob/main/Mock%20SAS%20Data%20Cleaning/mock%20SAS%20data%20clean.sas) and the [dataset](https://github.com/TeaZea/Data-Cleaning-Examples/blob/main/Mock%20SAS%20Data%20Cleaning/MOCK_DATA.csv), then upload the files into SAS Studio.
 
 ---
 
 ### Quick Preamble
-The mock data shows duplicate POs attributed to different vendor numbers. In real world application, this would not be the case. The reason the mock code is like this is honestly it's too much of a hassle to put logic into the fake dataset to replicate the real world to a T. The program still does it's job of cleaning and sorting the data. The mock data is also quite larger than what would normally be used in a normalworld scenario.
+The mock data shows duplicate POs attributed to different vendor numbers. In real world application, this would not be the case. The reason the mock code is like this is that it's too much of a hassle to put logic into the fake dataset to replicate the real world to a T. The script still does it's job of cleaning and sorting the data.
 
 ---
 
@@ -19,7 +19,7 @@ The mock data shows duplicate POs attributed to different vendor numbers. In rea
 > The photo doesn't show the entirety of the dataset.
 ![dataset used for analysis](https://github.com/TeaZea/Data-Cleaning-Examples/blob/main/Mock%20SAS%20Data%20Cleaning/SAS%20Data%20Clean%20README%20Pics/SASRawMockData.jpg)
 
-This is a replica of dirty data this program is used to cleaning, albeit larger than what it normally handels. There are no columns, so column names will have to be input and formatted manually. Where there are emails and fake ip addresses, there would be products, product codes and even their coresponding SKUs.
+This is a replica of dirty data this script cleans, albeit larger than what it normally handels. There are no columns, so column names will have to be input and formatted manually. Where there are emails and fake ip addresses, there would be products, product codes and even their coresponding SKUs.
 
 ---
 
@@ -28,11 +28,11 @@ First thing is to input the data and name any variables (columns), after which, 
 
 ![Formating variables](https://github.com/TeaZea/Data-Cleaning-Examples/blob/main/Mock%20SAS%20Data%20Cleaning/SAS%20Data%20Clean%20README%20Pics/FormatVariables.jpg)
 
-Formatting is necessary as both SAS and Excel use different integers to [represent different dates within their code](https://support.sas.com/resources/papers/proceedings/proceedings/sugi29/068-29.pdf). SAS date formats can only convert values that are integers. Since SAS input the _po_date_ and _po_eta_ as chars by default, we need to create a dummy variable with the format we want the data to take. Then use **_INPUT()_** to convert chars into int as we move them to our new variable. We then drop the old variable to clean up our table.
+Formatting is necessary as both SAS and Excel use different integers to [represent different dates within their code](https://support.sas.com/resources/papers/proceedings/proceedings/sugi29/068-29.pdf). SAS date formats can only convert values that are integers. Since SAS wants to input the _po_date_ and _po_eta_ as chars by default, we need to create a dummy variable with the format we want the data to take. Then use **_INPUT()_** to convert chars into ints as we move them to our new variable (which will then automatically inherit it's format). We then drop the old variable to clean up our table.
 
 ![New columns](https://github.com/TeaZea/Data-Cleaning-Examples/blob/main/Mock%20SAS%20Data%20Cleaning/SAS%20Data%20Clean%20README%20Pics/NewVariables.jpg)
 
-Dropping unnecessary columns, labeling ones we need, and sorting the data by PO numbers put the finishing touches on the report.
+Finally dropping unnecessary columns, labeling ones that are needed, and sorting the data by PO numbers put the finishing touches on the report.
 
 ![Mock Report](https://github.com/TeaZea/Data-Cleaning-Examples/blob/main/Mock%20SAS%20Data%20Cleaning/SAS%20Data%20Clean%20README%20Pics/MockReport.jpg)
 
