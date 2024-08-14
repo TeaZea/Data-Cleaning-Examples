@@ -10,7 +10,7 @@ Simply [download both the .sas](https://github.com/TeaZea/Data-Cleaning-Examples
 ---
 
 ### Quick Preamble
-The mock code shows duplicate POs attributed to different vendor numbers. In real world application, this would not be the case. The reason the mock code is like this is honestly it's too much of a hassle to put logic into the fake dataset to replicate the real world to a T. The program still does it's job of cleaning and sorting the data. The mock data is also quite larger than what would normally be used in a normalworld scenario.
+The mock data shows duplicate POs attributed to different vendor numbers. In real world application, this would not be the case. The reason the mock code is like this is honestly it's too much of a hassle to put logic into the fake dataset to replicate the real world to a T. The program still does it's job of cleaning and sorting the data. The mock data is also quite larger than what would normally be used in a normalworld scenario.
 
 ---
 
