@@ -39,11 +39,13 @@ Dropping unnecessary columns, labeling ones we need, and sorting the data by PO 
 ---
 
 ### Challenges
-The biggest challenge (embarissingly enough) was rembering to add a length to the columns that held what would be date values. The fuss that SAS makes in regards to converting date formats from Excel is often over looked and after a couple of hours trying to find a proper way of doing this, it ended up only needed 3 lines of code to fix the problem.
+The biggest challenge (embarissingly enough) was rembering to add a length to the columns that held what would be date values. The fuss that SAS makes in regards to converting date formats from Excel is often over looked and after a couple of hours trying to find a proper way of doing this, it ended up only needed 3 lines of code to fix the issue.
 
-![Challenge}
+![Challenge](https://github.com/TeaZea/Data-Cleaning-Examples/blob/main/Mock%20SAS%20Data%20Cleaning/SAS%20Data%20Clean%20README%20Pics/Challenge.jpg)
+
+The issue with the date values was the biggest issue simply because they weren't showing fully. When they were shown, because of the original input formats of the values, they would show incorrectly. This is why they needed to be duplicated and converted to a format SAS could properly work with.
 
 ---
 
 ### Future Iterations
-Of course, if the easiest way to improve on this cleaning script is to run SAS on an enterprise level from a local machine. That way there can be full integration with local directories to schedule batch uploads using a process flows, local/cloud databases and python.
+Of course, the easiest way to improve on this cleaning script is to run SAS on an enterprise level from a local machine. That way there can be full integration with local directories to schedule batch uploads using a process flows, local/cloud databases and python.
