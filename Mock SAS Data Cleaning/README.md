@@ -24,7 +24,7 @@ This is a replica of dirty data this program is used to cleaning, albeit larger 
 ---
 
 ### Overview of the Code
-First thing is to input the data and name any variables (columns). After which, formatting the variables are necessary.
+First thing is to input the data and name any variables (columns), after which, we must format certain variables.
 
 ![Formating variables](https://github.com/TeaZea/Data-Cleaning-Examples/blob/main/Mock%20SAS%20Data%20Cleaning/SAS%20Data%20Clean%20README%20Pics/FormatVariables.jpg)
 
@@ -34,12 +34,14 @@ Formatting is necessary as both SAS and Excel use different integers to [represe
 
 Dropping unnecessary columns, labeling ones we need, and sorting the data by PO numbers put the finishing touches on the report.
 
-
+![Mock Report](https://github.com/TeaZea/Data-Cleaning-Examples/blob/main/Mock%20SAS%20Data%20Cleaning/SAS%20Data%20Clean%20README%20Pics/MockReport.jpg)
 
 ---
 
 ### Challenges
+The biggest challenge (embarissingly enough) was rembering to add a length to the columns that held what would be date values. The fuss that SAS makes in regards to converting date formats from Excel is often over looked and after a couple of hours trying to find a proper way of doing this, it ended up only needed 3 lines of code to fix the problem.
 
+![Challenge}
 
 ---
 
