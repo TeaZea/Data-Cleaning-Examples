@@ -19,7 +19,7 @@ The mock data shows duplicate POs attributed to different vendor numbers. In rea
 > The photo doesn't show the entirety of the dataset.
 ![dataset used for analysis](https://github.com/TeaZea/Data-Cleaning-Examples/blob/main/Mock%20SAS%20Data%20Cleaning/SAS%20Data%20Clean%20README%20Pics/SASRawMockData.jpg)
 
-This is a replica of dirty data this script cleans, albeit larger than what it normally handels. There are no columns, so column names will have to be input and formatted manually. Where there are emails and fake ip addresses, there would be products, product codes and even their coresponding SKUs.
+This is a replica of dirty data this script cleans, albeit larger than what it normally handles. There are no columns, so column names will have to be input and formatted manually. Where there are emails and fake ip addresses, there would be products, product codes and even their coresponding SKUs.
 
 ---
 
