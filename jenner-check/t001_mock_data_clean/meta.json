@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_mock_data_clean",
+  "source_file": "Mock SAS Data Cleaning/mock SAS data clean.sas",
+  "source_blob_sha": "5fd676414d0b97afcafbda19da860aaddd03c23a",
+  "source_commit": "0bc867ab82a2b482c2431e8208739ffdc79a1e4e",
+  "notes": "Vendor-PO data-cleaning script: imports mock PO data, converts po_date/po_eta from dd-mm-yyyy strings to SAS dates via INPUT(...,ddmmyy10.), drops helper columns, filters per vendor_num, dedups PO with PROC SORT NODUPKEY, PROC PRINT LABEL NOOBS per vendor. Only adaptation: the original absolute INFILE path was replaced with an inline DATALINES block holding a 90-row sample of MOCK_DATA.csv (10 rows per each of the 9 vendor numbers) so the script is self-contained; LENGTH/INPUT and all downstream steps are the author's verbatim."
+}
