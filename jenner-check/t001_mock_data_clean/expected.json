@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-27T17:25:45Z",
+  "_captured_run_id": "r_f6b6587310b340099e94e78af6303f23",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Read 90 rows from DATALINES.",
+    "Wrote rawMock (90 rows, 9 columns).",
+    "Wrote rmvColumnMock (90 rows, 4 columns).",
+    "Wrote _1234MockReport (8 rows, 4 columns)."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

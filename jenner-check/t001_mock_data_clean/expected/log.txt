@@ -1,0 +1,180 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA rawMock
+
+NOTE: Processing inline DATALINES (90 lines)
+
+NOTE: Read 90 rows from DATALINES.
+NOTE: Wrote rawMock (90 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA fMock
+
+
+NOTE: Read 90 rows from rawMock.
+NOTE: Wrote fMock (90 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA rmvColumnMock
+
+
+NOTE: Read 90 rows from fMock.
+NOTE: Wrote rmvColumnMock (90 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA raw1234Mock
+
+
+NOTE: Read 90 rows from rmvColumnMock.
+NOTE: Wrote raw1234Mock (10 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=raw1234Mock
+
+NOTE: 2 duplicate observations were deleted.
+NOTE: Read 10 rows from raw1234Mock.
+NOTE: Wrote _1234MockReport (8 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA raw1113Mock
+
+
+NOTE: Read 90 rows from rmvColumnMock.
+NOTE: Wrote raw1113Mock (10 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=raw1113Mock
+
+NOTE: 2 duplicate observations were deleted.
+NOTE: Read 10 rows from raw1113Mock.
+NOTE: Wrote _1113MockReport (8 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA raw7890Mock
+
+
+NOTE: Read 90 rows from rmvColumnMock.
+NOTE: Wrote raw7890Mock (10 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=raw7890Mock
+
+NOTE: 2 duplicate observations were deleted.
+NOTE: Read 10 rows from raw7890Mock.
+NOTE: Wrote _7890MockReport (8 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA raw9012Mock
+
+
+NOTE: Read 90 rows from rmvColumnMock.
+NOTE: Wrote raw9012Mock (10 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=raw9012Mock
+
+NOTE: 3 duplicate observations were deleted.
+NOTE: Read 10 rows from raw9012Mock.
+NOTE: Wrote _9012MockReport (7 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA raw5678Mock
+
+
+NOTE: Read 90 rows from rmvColumnMock.
+NOTE: Wrote raw5678Mock (10 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=raw5678Mock
+
+NOTE: 4 duplicate observations were deleted.
+NOTE: Read 10 rows from raw5678Mock.
+NOTE: Wrote _5678MockReport (6 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA raw7895Mock
+
+
+NOTE: Read 90 rows from rmvColumnMock.
+NOTE: Wrote raw7895Mock (10 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=raw7895Mock
+
+NOTE: 2 duplicate observations were deleted.
+NOTE: Read 10 rows from raw7895Mock.
+NOTE: Wrote _7895MockReport (8 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA raw3456Mock
+
+
+NOTE: Read 90 rows from rmvColumnMock.
+NOTE: Wrote raw3456Mock (10 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=raw3456Mock
+
+NOTE: 3 duplicate observations were deleted.
+NOTE: Read 10 rows from raw3456Mock.
+NOTE: Wrote _3456MockReport (7 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA raw6549Mock
+
+
+NOTE: Read 90 rows from rmvColumnMock.
+NOTE: Wrote raw6549Mock (10 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=raw6549Mock
+
+NOTE: 3 duplicate observations were deleted.
+NOTE: Read 10 rows from raw6549Mock.
+NOTE: Wrote _6549MockReport (7 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA raw1112Mock
+
+
+NOTE: Read 90 rows from rmvColumnMock.
+NOTE: Wrote raw1112Mock (10 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=raw1112Mock
+
+NOTE: 3 duplicate observations were deleted.
+NOTE: Read 10 rows from raw1112Mock.
+NOTE: Wrote _1112MockReport (7 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC PRINT data=_1234MockReport
+
+NOTE: PROC PRINT completed: 8 observations printed, 4 variables
+NOTE: PROC PRINT data=_1113MockReport
+
+NOTE: PROC PRINT completed: 8 observations printed, 4 variables
+NOTE: PROC PRINT data=_7890MockReport
+
+NOTE: PROC PRINT completed: 8 observations printed, 4 variables
+NOTE: PROC PRINT data=_9012MockReport
+
+NOTE: PROC PRINT completed: 7 observations printed, 4 variables
+NOTE: PROC PRINT data=_5678MockReport
+
+NOTE: PROC PRINT completed: 6 observations printed, 4 variables
+NOTE: PROC PRINT data=_7895MockReport
+
+NOTE: PROC PRINT completed: 8 observations printed, 4 variables
+NOTE: PROC PRINT data=_3456MockReport
+
+NOTE: PROC PRINT completed: 7 observations printed, 4 variables
+NOTE: PROC PRINT data=_6549MockReport
+
+NOTE: PROC PRINT completed: 7 observations printed, 4 variables
+NOTE: PROC PRINT data=_1112MockReport
+
+NOTE: PROC PRINT completed: 7 observations printed, 4 variables
+
